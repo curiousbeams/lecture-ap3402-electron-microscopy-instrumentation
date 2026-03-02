@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: curious-beams-teaching-ap3402-electron-microscopy-instrumentation
+  id: curious-beams-lecture-ap3402-electron-microscopy-instrumentation
   title: "AP3402: Electron Microscopy Instrumentation"
   short_title: EM Instrumentation
   description: Interactive lecture notes given by Dr. Georgios Varnavides at Delft University of Technology, Q3-Q4 2026.
@@ -10,7 +10,7 @@ project:
     - Ray Tracing
     - Non-Paraxial Optics
     - Transfer Matrix
-  github: https://github.com/curiousbeams/teaching-ap3402-electron-microscopy-instrumentation
+  github: https://github.com/curiousbeams/lecture-ap3402-electron-microscopy-instrumentation
   # jupyter: true
   # jupyter:
   #   server:
