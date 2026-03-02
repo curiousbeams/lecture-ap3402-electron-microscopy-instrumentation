@@ -2,7 +2,7 @@
 version: 1
 project:
   id: curious-beams-lecture-ap3402-electron-microscopy-instrumentation
-  title: "AP3402: Electron Microscopy Instrumentation"
+  title: "AP3402 | Electron Microscopy Instrumentation"
   short_title: EM Instrumentation
   description: Interactive lecture notes given by Dr. Georgios Varnavides at Delft University of Technology, Q3-Q4 2026.
   keywords:
@@ -19,7 +19,7 @@ project:
   open_access: true
   license: CC-BY-4.0
   date: 2026-03-02
-  thumbnail: ./figures/streaming_parallax_placeholder.png
+  thumbnail: ./figures/thumbnail.png
   # requirements:
   #   - 'Dockerfile'
   #   - requirements.txt
