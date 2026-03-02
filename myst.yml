@@ -1,0 +1,61 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: curious-beams-teaching-ap3402-electron-microscopy-instrumentation
+  title: "AP3402: Electron Microscopy Instrumentation"
+  short_title: EM Instrumentation
+  description: Interactive lecture notes given by Dr. Georgios Varnavides at Delft University of Technology, Q3-Q4 2026.
+  keywords:
+    - Electron Microscopy
+    - Ray Tracing
+    - Non-Paraxial Optics
+    - Transfer Matrix
+  github: https://github.com/curiousbeams/teaching-ap3402-electron-microscopy-instrumentation
+  # jupyter: true
+  # jupyter:
+  #   server:
+  #     url: 'http://localhost:8888'
+  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  open_access: true
+  license: CC-BY-4.0
+  date: 2026-03-02
+  thumbnail: ./figures/streaming_parallax_placeholder.png
+  # requirements:
+  #   - 'Dockerfile'
+  #   - requirements.txt
+  # resources:
+  #   - 'notebooks/**/*'
+  # exports:
+  #   - format: meca
+  exclude:
+    - README.md
+  authors:
+    - id: george
+      name: Georgios Varnavides
+      email: g.varnavides@tudelft.nl
+      orcid: 0000-0001-8338-3323
+      affiliations:
+        - id: imphys
+          department: Imaging Physics, Applied Sciences
+          institution: Delft University of Technology
+          address: Gebouw 22, Lorentzweg 1, 2628 CJ, Delft, NL
+          ror: 02e2c7k09
+    - id: ali
+      name: Ali Mohammadi-Gheidari
+      email: a.m.gheidhari@tudelft.nl
+      orcid: 0000-0002-8121-7038
+      affiliations: [imphys]
+    - id: jacob
+      name: Jacob Hoogenboom
+      email: j.p.hoogenboom@tudelft.nl
+      orcid: 0000-0003-4539-8772
+      affiliations: [imphys]
+  abbreviations:
+    TEM: transmission electron microscopy
+    STEM: scanning transmission electron microscopy
+    SEM: scanning electron microscopy
+site:
+  template: book-theme
+  # template: https://github.com/curvenote-themes/spa-preview/archive/refs/heads/main.zip
+  # options:
+  #   site_id: curious-beams
