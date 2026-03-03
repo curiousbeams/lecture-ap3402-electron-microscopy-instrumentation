@@ -2,10 +2,10 @@
 title: "AP3402 | Electron Microscopy Instrumentation"
 short_title: EM Instrumentation
 numbering:
-  enumerator: 0.%s
+  enumerator: 1.%s
 ---
 
-Interactive portion of the lecture notes for AP3402: Physics of Electron Microscopy Instrumentation, as taught by Dr. Georgios Varnavides at TU Delft in Q3-Q4 2026.
+Interactive lecture notes for AP3402: Physics of Electron Microscopy Instrumentation, as taught by Dr. Georgios Varnavides at TU Delft in Q3-Q4 2026.
 
 :::::{tab-set}
 

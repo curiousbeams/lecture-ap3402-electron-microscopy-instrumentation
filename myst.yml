@@ -54,6 +54,15 @@ project:
     TEM: transmission electron microscopy
     STEM: scanning transmission electron microscopy
     SEM: scanning electron microscopy
+  toc:
+    - file: index.md
+    - title: "W4: Ray Tracing"
+      children:
+        - file: w4.01.laplace-expansion.md
+        - file: w4.02.paraxial-odes.md
+        - file: w4.03.ray-diagrams.md
+        - file: w4.04.non-paraxial-odes.md
+        - file: w4.05.assignments.md
 site:
   template: book-theme
   # template: https://github.com/curvenote-themes/spa-preview/archive/refs/heads/main.zip
