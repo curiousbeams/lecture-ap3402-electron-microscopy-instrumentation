@@ -5,7 +5,7 @@ numbering:
   enumerator: 1.%s
 ---
 
-Interactive lecture notes for AP3402: Physics of Electron Microscopy Instrumentation, as taught by Dr. Georgios Varnavides at TU Delft in Q3-Q4 2026.
+Interactive lecture notes for AP3402: Physics of Electron Microscopy Instrumentation, as taught by Georgios Varnavides, Ali Mohammadi-Gheidhari, and Jacob Hoogenboom at TU Delft in Q3-Q4 2026.
 
 :::::{tab-set}
 
