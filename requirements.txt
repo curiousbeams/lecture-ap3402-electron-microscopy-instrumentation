@@ -950,6 +950,7 @@ matplotlib==3.10.9 \
     #   cmasher
     #   ipympl
     #   quantem
+    #   temgymlite
 matplotlib-inline==0.2.2 \
     --hash=sha256:3c821cf1c209f59fb2d2d64abbf5b23b67bcb2210d663f9918dd851c6da1fcf6 \
     --hash=sha256:72f3fe8fce36b70d4a5b612f899090cd0401deddc4ea90e1572b9f4bfb058c79
@@ -1144,6 +1145,7 @@ numpy==2.4.6 \
     #   rosettasciio
     #   scikit-image
     #   scipy
+    #   temgymlite
     #   tensorboard
     #   tifffile
     #   torchmetrics
@@ -1899,6 +1901,9 @@ tblib==3.2.2 \
     --hash=sha256:26bdccf339bcce6a88b2b5432c988b266ebbe63a4e593f6b578b1d2e723d2b76 \
     --hash=sha256:e9a652692d91bf4f743d4a15bc174c0b76afc750fe8c7b6d195cc1c1d6d2ccec
     # via distributed
+temgymlite @ https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl \
+    --hash=sha256:b19a702ae6ce89aa01d666f88aed4273ae681d4da329b1ebc299acc9668dea13
+    # via lecture-ap3402-electron-microscopy-instrumentation
 tensorboard==2.20.0 \
     --hash=sha256:9dc9f978cb84c0723acf9a345d96c184f0293d18f166bb8d59ee098e6cfaaba6
     # via quantem
