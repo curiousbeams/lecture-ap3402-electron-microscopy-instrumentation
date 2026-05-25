@@ -16,11 +16,11 @@ project:
     - Ronchigram
     - Zemlin Tableaux
   github: https://github.com/curiousbeams/lecture-ap3402-electron-microscopy-instrumentation
-  # jupyter: true
-  jupyter:
-    server:
-      url: 'http://localhost:8888'
-      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  jupyter: true
+  # jupyter:
+  #   server:
+  #     url: 'http://localhost:8888'
+  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   references:
     cbl-apmc: https://cbl.curve.space/articles/curious-beams-workshop-20250131-apmc-4dstem/
   open_access: true
