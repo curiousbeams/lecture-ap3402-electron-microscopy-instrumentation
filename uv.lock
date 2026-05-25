@@ -1451,6 +1451,7 @@ dependencies = [
     { name = "ipywidgets" },
     { name = "jupyterlab" },
     { name = "quantem" },
+    { name = "temgymlite" },
 ]
 
 [package.metadata]
@@ -1460,6 +1461,7 @@ requires-dist = [
     { name = "ipywidgets", specifier = ">=8.1.8" },
     { name = "jupyterlab", specifier = ">=4.5.7" },
     { name = "quantem", specifier = ">=0.1.8" },
+    { name = "temgymlite", url = "https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -3019,6 +3021,24 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/f4/8a/14c15ae154895cc131174f858c707790d416c444fc69f93918adfd8c4c0b/tblib-3.2.2.tar.gz", hash = "sha256:e9a652692d91bf4f743d4a15bc174c0b76afc750fe8c7b6d195cc1c1d6d2ccec", size = 35046, upload-time = "2025-11-12T12:21:16.572Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/02/be/5d2d47b1fb58943194fb59dcf222f7c4e35122ec0ffe8c36e18b5d728f0b/tblib-3.2.2-py3-none-any.whl", hash = "sha256:26bdccf339bcce6a88b2b5432c988b266ebbe63a4e593f6b578b1d2e723d2b76", size = 12893, upload-time = "2025-11-12T12:21:14.407Z" },
+]
+
+[[package]]
+name = "temgymlite"
+version = "0.6.0.0"
+source = { url = "https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+]
+wheels = [
+    { url = "https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl", hash = "sha256:b19a702ae6ce89aa01d666f88aed4273ae681d4da329b1ebc299acc9668dea13" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "matplotlib" },
+    { name = "numpy" },
 ]
 
 [[package]]

@@ -10,4 +10,8 @@ dependencies = [
     "ipywidgets>=8.1.8",
     "jupyterlab>=4.5.7",
     "quantem>=0.1.8",
+    "temgymlite",
 ]
+
+[tool.uv.sources]
+temgymlite = { url = "https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl" }
