@@ -10,23 +10,28 @@ project:
     - Ray Tracing
     - Non-Paraxial Optics
     - Transfer Matrix
+    - Wave Aberrations
+    - Contrast Transfer Function
+    - Point Spread Function
+    - Ronchigram
+    - Zemlin Tableaux
   github: https://github.com/curiousbeams/lecture-ap3402-electron-microscopy-instrumentation
   # jupyter: true
-  # jupyter:
-  #   server:
-  #     url: 'http://localhost:8888'
-  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  jupyter:
+    server:
+      url: 'http://localhost:8888'
+      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   date: 2026-03-02
   thumbnail: ./figures/thumbnail.png
-  # requirements:
-  #   - 'Dockerfile'
-  #   - requirements.txt
-  # resources:
-  #   - 'notebooks/**/*'
-  # exports:
-  #   - format: meca
+  requirements:
+    - 'Dockerfile'
+    - requirements.txt
+  resources:
+    - 'notebooks/**/*'
+  exports:
+    - format: meca
   exclude:
     - README.md
   authors:
@@ -63,6 +68,16 @@ project:
         - file: w4.03.ray-diagrams.md
         - file: w4.04.non-paraxial-odes.md
         - file: w4.05.assignments.md
+    - title: "W12: Wave Aberrations"
+      children:
+        - file: w12.01.aplanatic-aberrations.md
+        - file: w12.02.geometric-distortions.md
+        - file: w12.03.ronchigram-measurements.md
+        - file: w12.04.parallax-imaging.md
+        - file: w12.05.assignments.md
+    - title: Notebooks
+      children:
+        - pattern: notebooks/*.ipynb
 site:
   template: book-theme
   # template: https://github.com/curvenote-themes/spa-preview/archive/refs/heads/main.zip
